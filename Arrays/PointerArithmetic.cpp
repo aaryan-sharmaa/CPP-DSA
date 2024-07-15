@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Increment & Decrement
+//* Increment & Decrement
 
 // int main()
 // {
@@ -39,7 +39,7 @@ using namespace std;
 //     return 0;
 // }
 
-//! ADDITION & SUBTRACTION OF CONSTANTS - generally used in array pointer for traversing
+//* ADDITION & SUBTRACTION OF CONSTANTS - generally used in array pointer for traversing
 
 // int main()
 // {
@@ -53,7 +53,7 @@ using namespace std;
 //     return 0;
 // }
 
-// Array Traversing
+//* Array Traversing
 
 // void printArr(int *ptr, int n)
 // {
@@ -74,7 +74,7 @@ using namespace std;
 //     return 0;
 // }
 
-//! ADDITION & SUBTRACTION OF POINTERS
+//* ADDITION & SUBTRACTION OF POINTERS
 
 // int main()
 // {
@@ -88,7 +88,7 @@ using namespace std;
 //     return 0;
 // }
 
-//! Comparison
+//* Comparison
 
 int main()
 {
