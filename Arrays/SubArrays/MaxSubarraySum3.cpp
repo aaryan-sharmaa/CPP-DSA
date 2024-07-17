@@ -14,6 +14,7 @@
 //* 8. If max_so_far is less than max_ending_here, then update max_so
 
 #include <iostream>
+#include <climits>
 using namespace std;
 
 void maxSubarraySum(int *arr, int n)
