@@ -5,5 +5,15 @@ using namespace std;
 int main()
 {
     vector<int> vec1;
+    cout << vec1.size() << "\n";
+    vector<int> vec2(10,-1);
+    cout << vec2.size() << "\n";
+
+    for (int i = 0; i < vec2.size(); i++)
+    {
+        cout << vec2[i] << " ";
+    }
+    cout << endl;
+
     return 0;
 }
