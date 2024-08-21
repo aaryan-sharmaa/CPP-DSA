@@ -27,8 +27,7 @@ void maxProfit(int *prices, int n)
 }
 int main()
 {
-
-    int prices[6] = {7, 6, 5, 4, 3, 2};
+    int prices[6] = {7, 1, 5, 3, 6, 4};
     int n = sizeof(prices) / sizeof(int);
 
     maxProfit(prices, n);
