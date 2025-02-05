@@ -246,3 +246,38 @@ int main()
 
     // cout << ll.searchRec(40) << endl;
 }
+
+// class Solution {
+// public:
+//     ListNode* removeNthFromEnd(ListNode* head, int n) {
+//         if (!head) return nullptr;  // Edge case: empty list
+
+//         // Helper function to count the nodes
+//         int count = 0;
+//         ListNode* temp = head;
+//         while (temp) {
+//             count++;
+//             temp = temp->next;
+//         }
+
+//         if (n == count) { // Special case: removing the head
+//             ListNode* toDel = head;
+//             head = head->next;
+//             delete toDel;
+//             return head;
+//         }
+
+//         // Traverse to the node before the one to be deleted
+//         ListNode* prev = head;
+//         for (int i = 1; i < count - n; i++) {
+//             prev = prev->next;
+//         }
+
+//         // Remove the nth node from the end
+//         ListNode* toDel = prev->next;
+//         prev->next = prev->next->next;
+//         delete toDel;
+
+//         return head;
+//     }
+// };
